@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import Names from "./Names.js"
 import './App.css';
 
 function App() {
   return (
-    <h1>Team Everest</h1>
+    <div>
+      <h1>Team Everest</h1>
+      <Names />
+    </div>
   );
 }
 
